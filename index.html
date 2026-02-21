@@ -21,28 +21,29 @@
             </button>
         </nav>
 
+        <div>
         <section id="panel-clasificar" class="tab-panel active">
             <div class="card">
-                <h2>claficador de conjunto de numero</h2>
+                <h2>claficador de conjunto de número</h2>
                 <p>ingresa un numero y seleciona un conjunto para verificar si pertenece a el</p>
             </div>
+
+            <div class="card-body">
+                <div class="card-object">
+                <label for="input">Inserte el número:</label>
+                <input type="text" id="número-input"Placehorder="ejp:1,-8,3/4,7.6">
+                </div>
             
-            <input type="text" id="numero-input">
-            
+            <div class="card-object">
             <select id="select-conjuntos">
-                <option value="NATURALES">NATURALES</option>
-                 <option value="ENTERO">ENTERO</option>
-                  <option value="RACIONALES">RACIONALES</option>
+                  <option value="">Selecione un conjunto</option>
+                <option value="NATURALES">NATURALES(N)</option>
+                 <option value="ENTERO">ENTERO(Z)</option>
+                  <option value="RACIONALES">RACIONALES(Q)</option>
 
             </select>
-
-            
+            </div>
+            <button class="tab-btn " id="btn-clasificador" type="button">Evaluar</button>
         </section>
-    <h2>HOLA MUNDO</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sunt tenetur labore ducimus sint delectus, quas in, maxime, vero incidunt corrupti autem fuga obcaecati temporibus vitae quae ea ut maiores.
-        <script>
-            alert("HOLA")
-        </script>
-        </div>
 </body>
 </html>
